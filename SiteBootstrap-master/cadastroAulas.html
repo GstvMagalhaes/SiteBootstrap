@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=1920, initial-scale=1.0" />
+  <title>Cadastro | Aulas</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+  <!-- Vanilla Datepicker CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css" />
+  <link rel="icon" href="assets/logo.png" type="imagem">
+  <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body class="bg-light">
+  <style>
+    body {
+      background-image: url('assets/1145359.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <main class="container">
+    <!-- HEADER -->
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="p-3 navbar-brand" href="cadastroAulas.html">Aulas</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="homepage.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+          aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%">
+            <rect fill="#f72280" width="540" height="450" />
+            <defs>
+              <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="0" x2="0" y1="0" y2="100%"
+                gradientTransform="rotate(70,800,394)">
+                <stop offset="0" stop-color="#080117" />
+                <stop offset="1" stop-color="#18004a" />
+              </linearGradient>
+              <pattern patternUnits="userSpaceOnUse" id="b" width="300" height="250" x="0" y="0" viewBox="0 0 1080 900"
+                s>
+                <g fill-opacity="0.05">
+                  <polygon fill="#222" points="590 150 0 300 180 300" />
+                  <polygon points="90 150 180 0 0 0" />
+                  <polygon fill="#AAA" points="210 150 360 0 180 0" />
+                  <polygon fill="#DDD" points="950 150 360 300 540 600" />
+                  <polygon fill="#999" points="250 150 540 0 360 0" />
+                  <polygon points="530 160 870 100 700 300" />
+                  <polygon fill="#DDD" points="230 150 720 0 540 0" />
+                  <polygon fill="#444" points="210 140 720 300 900 300" />
+                  <polygon fill="#FFF" points="120 100 900 0 720 0" />
+                  <polygon fill="#DDD" points="990 150 900 300 1080 300" />
+                  <polygon fill="#444" points="990 150 1080 0 900 0" />
+                  <polygon fill="#DDD" points="90 450 0 600 180 600" />
+                  <polygon points="90 450 180 300 0 300" />
+                  <polygon fill="#888" points="270 450 180 600 360 600" />
+                  <polygon fill="#AAA" points="270 450 360 300 180 300" />
+                  <polygon fill="#FFF" points="450 450 360 600 540 600" />
+                  <polygon fill="#111" points="450 450 540 300 360 300" />
+                  <polygon fill="#222" points="630 450 540 600 720 600" />
+                  <polygon fill="#DDD" points="630 450 720 300 540 300" />
+                  <polygon points="810 450 720 600 900 600" />
+                  <polygon fill="#DDD" points="810 450 900 300 720 300" />
+                  <polygon fill="#AAA" points="990 450 900 600 1080 600" />
+                  <polygon fill="#444" points="990 450 1080 300 900 300" />
+                  <polygon fill="#222" points="90 750 0 900 180 900" />
+                  <polygon points="270 750 180 900 360 900" />
+                  <polygon fill="#DDD" points="270 750 360 600 180 600" />
+                  <polygon points="450 750 540 600 360 600" />
+                  <polygon points="630 750 540 900 720 900" />
+                  <polygon fill="#444" points="630 750 720 600 540 600" />
+                  <polygon fill="#AAA" points="810 750 720 900 900 900" />
+                  <polygon fill="#666" points="810 750 900 600 720 600" />
+                  <polygon fill="#999" points="990 750 900 900 1080 900" />
+                  <polygon fill="#999" points="180 0 90 150 270 150" />
+                  <polygon fill="#444" points="360 0 270 150 450 150" />
+                  <polygon fill="#FFF" points="540 0 450 150 630 150" />
+                  <polygon points="900 0 810 150 990 150" />
+                  <polygon fill="#222" points="0 100 -90 450 90 450" />
+                  <polygon fill="#FFF" points="0 100 90 150 -90 150" />
+                  <polygon fill="#FFF" points="180 100 90 450 270 450" />
+                  <polygon fill="#666" points="180 100 270 150 90 150" />
+                  <polygon fill="#222" points="260 100 270 450 450 450" />
+                  <polygon fill="#FFF" points="980 100 450 150 270 150" />
+                  <polygon fill="#444" points="840 100 450 450 630 450" />
+                  <polygon fill="#222" points="440 100 630 150 450 150" />
+                  <polygon fill="#AAA" points="120 100 630 450 810 450" />
+                  <polygon fill="#666" points="530 100 810 150 630 150" />
+                  <polygon fill="#FFF" points="400 100 810 450 990 450" />
+                  <polygon fill="#999" points="100 100 990 150 810 150" />
+                  <polygon points="0 600 -90 750 90 750" />
+                  <polygon fill="#666" points="0 600 90 450 -90 450" />
+                  <polygon fill="#AAA" points="180 600 90 750 270 750" />
+                  <polygon fill="#444" points="180 600 270 450 90 450" />
+                  <polygon fill="#444" points="360 600 270 750 450 750" />
+                  <polygon fill="#999" points="360 600 450 450 270 450" />
+                  <polygon fill="#666" points="540 600 630 450 450 450" />
+                  <polygon fill="#222" points="720 600 630 750 810 750" />
+                  <polygon fill="#FFF" points="900 600 810 750 990 750" />
+                  <polygon fill="#222" points="900 600 990 450 810 450" />
+                  <polygon fill="#DDD" points="0 900 90 750 -90 750" />
+                  <polygon fill="#444" points="180 900 270 750 90 750" />
+                  <polygon fill="#FFF" points="360 900 450 750 270 750" />
+                  <polygon fill="#AAA" points="540 900 630 750 450 750" />
+                  <polygon fill="#FFF" points="720 900 810 750 630 750" />
+                  <polygon fill="#222" points="900 900 990 750 810 750" />
+                  <polygon fill="#222" points="1080 300 990 450 1170 450" />
+                  <polygon fill="#FFF" points="1080 300 1170 150 990 150" />
+                  <polygon points="1080 600 990 750 1170 750" />
+                  <polygon fill="#666" points="1080 600 1170 450 990 450" />
+                  <polygon fill="#DDD" points="1080 900 1170 750 990 750" />
+                </g>
+              </pattern>
+            </defs>
+            <rect x="0" y="0" fill="url(#a)" width="100%" height="100%" />
+            <rect x="0" y="0" fill="url(#b)" width="100%" height="100%" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Se torne um usuario</h1>
+              <p>
+                Aqui voce poderá ver como fazer login e consultar suas aulas de maneira mais fácil.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777"></rect>
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                Some representative placeholder content for the second
+                slide of the carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Learn more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777"></rect>
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Some representative placeholder content for the third
+                slide of this carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    </div>
+    <section class="pb-4">
+      <div class="bg-white border rounded-5">
+
+        <section class="w-100 px-4 py-5">
+          <style>
+            .divider:after,
+            .divider:before {
+              content: "";
+              flex: 1;
+              height: 1px;
+              background: #eee;
+            }
+          </style>
+
+          <!-- CONTENT -->
+          <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-10">
+                <div class="row">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="nome" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="nome" />
+                    </div>
+                    <div class="col-md-2">
+                      <label for="nome" class="form-label">Data</label>
+                      <div class="input-group mb-4">
+                        <i class="bi bi-calendar-date input-group-text"></i>
+                        <input type="text" class="datepicker_input form-control" required aria-label="Data de hoje" />
+                      </div>
+                    </div>
+                    <label for="nome" class="form-label">Hora</label>
+                    <div class="col-md-2 p-1">
+                      <input type="time" class="form-control" placeholder="time" aria-label="First name">
+                    </div>
+                    <div class="col-md-2 p-1">
+                      <input type="time" class="form-control" placeholder="time" aria-label="First name">
+                    </div>
+                </div>
+                <div class="col-8">
+                  <label for="estudado" class="form-label">Estudado</label>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="col-md-8">
+                  <label for="dificuldades" class="form-label">Observações</label>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="p-2 col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button type="cancel" class="btn btn-danger">Limpar</button>
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+      </div>
+      <!-- FOOTER -->
+      <div class="my-3 p-3 bg-body rounded shadow-sm">
+        <div class="row">
+          <div class="col">
+            <div class="table-responsive">
+              <table id="example" class="display table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Hora</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1,001</td>
+                    <td>random</td>
+                    <td>data</td>
+                    <td>placeholder</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #14004b">
+          <!-- Left -->
+          <div class="me-5">
+            <span>Continue acompanhando nossas noticias em: </span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Cadastro de Alunos</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #14004b; height: 2px" />
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque sapiente voluptas
+                  laudantium
+                  dignissimos, beata.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Redes Sociais</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #14004b; height: 2px" />
+                <p>
+                  <a href="#!" class="text-white">Facebook</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Instagram</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Links uteis</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #14004b; height: 2px" />
+                <p>
+                  <a href="#!" class="text-white">Sua Conta</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Home Page</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contatos</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #14004b; height: 2px" />
+                <p><i class="fas fa-home mr-3"></i> Minas Gerais, Belo Horizonte 2022</p>
+                <p><i class="fas fa-envelope mr-3"></i> gustavoatapo@gmail.com</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright:
+          <a class="text-white" href="https://github.com/GstvMagalhaes">My github profile</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+  </main>
+</body>
+
+</html>
